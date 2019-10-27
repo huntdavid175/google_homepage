@@ -89,7 +89,7 @@ a:hover{
     padding: 0 12px !important;
     line-height: 28px;
     border-radius: 2px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .sign_in:hover {
@@ -225,7 +225,7 @@ a:hover{
 .second_footer a {
     display: inline-block;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     text-decoration: none;
     color: rgba(0,0,0,.54);
     font-size: 13px;
