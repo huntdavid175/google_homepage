@@ -59,7 +59,7 @@ body {
 .nav_bar a{
     display: inline-block;
     text-decoration: none;
-    padding: 5px;
+    padding: 10px;
     color: #222;
 }
 
@@ -81,6 +81,20 @@ a:hover{
     font-size: 13px;
     font-family: arial,sans-serif;
     
+}
+
+.sign_in {
+    background: #4285f4;
+    color: #fff !important;
+    padding: 0 12px !important;
+    line-height: 28px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.sign_in:hover {
+    cursor: default;
+    text-decoration: none;
 }
 
 .main {
