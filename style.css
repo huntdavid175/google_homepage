@@ -101,18 +101,24 @@ a:hover{
 }
 
 .form {
-    margin-top: 30px;
+    margin-top: 27px;
     width: 100%;
 }
 
 .search {
     width: 100%;
     border: 1px solid #dfe1e5;
-    border-radius: 20px;
+    border-radius: 25px;
     /* padding: 10px; */
-    height: 40px;
+    height: 50px;
     display: flex;
     align-items: center;
+}
+
+.search:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+
 }
 
 .search_image {
@@ -123,6 +129,50 @@ a:hover{
     margin-right: 10px;
 }
 
+.search_icon {
+    opacity: 0.3;
+}
+
+.button_section {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.btn {
+    height: 36px;
+    font-size: 14px;
+    padding: 0 16px;
+    border-radius: 4px;
+    background: #f2f2f2;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin: 5px;
+    color: rgb(95, 99, 104);
+}
+
+.btn:hover {
+    border: 1px solid #c6c6c6;
+    color: #222;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.languages {
+    display: block;
+    width: 30%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    color: #222;  
+}
+
+.languages a {
+    color: blue;
+}
 
 
 
