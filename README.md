@@ -1,0 +1,1 @@
+The odin project HTML/CSS project. Project is to create a clone of the google.com homepage
